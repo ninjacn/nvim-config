@@ -1,6 +1,9 @@
 ## Install
 - brew install neovim
 
+### config file path
+`~/.config/nvim/init.vim`
+
 ## Install vim-plug
 https://github.com/junegunn/vim-plug
 ```
