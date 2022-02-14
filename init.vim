@@ -142,3 +142,6 @@ nnoremap <Leader>b :CtrlPBuffer<CR>
 "vim-translator
 nnoremap <Leader>t :TranslateW<CR>
 let g:translator_default_engines = ['bing','haici']
+
+let g:startify_custom_header =
+            \ startify#pad(split(system('figlet -w 100 2022'), '\n'))
