@@ -1,6 +1,6 @@
 scriptencoding = 'utf-8'
 
-syntax enable
+syntax on
 
 set number
 
