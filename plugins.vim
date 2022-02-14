@@ -20,6 +20,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'voldikss/vim-translator'
 Plug 'preservim/vim-markdown'
 Plug 'mhinz/vim-startify'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 "airline
@@ -97,4 +98,4 @@ nnoremap <Leader>t :TranslateW<CR>
 let g:translator_default_engines = ['bing','haici']
 
 let g:startify_custom_header =
-            \ startify#pad(split(system('figlet -w 100 2022'), '\n'))
+            \ startify#pad(split(system('figlet -w 100 Hi 2022'), '\n'))
