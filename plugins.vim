@@ -24,7 +24,7 @@ Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 "airline
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'light'
 
 "indentLine
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']

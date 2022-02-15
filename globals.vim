@@ -26,6 +26,8 @@ set hlsearch
 
 set cursorline
 
+set cursorcolumn
+
 set clipboard=unnamed
 
 set noswapfile
